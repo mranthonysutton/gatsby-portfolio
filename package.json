@@ -1,0 +1,21 @@
+{
+  "name": "gatsby-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mranthonysutton/gatsby-portfolio.git",
+  "author": "Anthony Sutton <anthony.sutton95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.22.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "clean": "gatsby clean",
+    "develop": "env-cmd -f .env gatsby develop",
+    "build": "gatsby build"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
