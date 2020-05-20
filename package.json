@@ -12,7 +12,10 @@
   },
   "scripts": {
     "clean": "gatsby clean",
-    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "develop": "env-cmd -f .env gatsby develop",
     "build": "gatsby build"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
   }
 }
