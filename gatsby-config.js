@@ -5,5 +5,15 @@ module.exports = {
     github: "https://github.com/mranthonysutton",
     email: "anthony.sutton95@gmail.com",
   },
-  plugins: ["gatsby-plugin-sass"],
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+        ignore: [`**/\.*`],
+      },
+    },
+  ],
 };

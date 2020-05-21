@@ -9,9 +9,15 @@ const Header = () => {
       </h1>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/portfolio">Portfolio</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
       </nav>
     </header>
