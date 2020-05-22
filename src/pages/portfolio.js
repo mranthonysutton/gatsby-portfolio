@@ -35,8 +35,20 @@ const PortfolioPage = () => {
           <p>{portfolio.node.frontmatter.description}</p>
           <MDXRenderer>{portfolio.node.body}</MDXRenderer>
           <div>
-            <a href={portfolio.node.frontmatter.github}>View on GitHub</a>
-            <a href={portfolio.node.frontmatter.url}>View live demo</a>
+            <a
+              href={portfolio.node.frontmatter.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View on GitHub
+            </a>
+            <a
+              href={portfolio.node.frontmatter.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View live demo
+            </a>
           </div>
         </div>
       ))}
