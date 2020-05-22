@@ -1,15 +1,13 @@
 import React from "react";
-import Layout from "../components/layout";
-import Head from "../components/head";
+import Layout from "../components/layout.js";
+import Head from "../components/head.js";
 
 const ContactPage = () => {
   return (
-    <div>
-      <Layout>
-        <Head title="Contact Me" />
-        <h1>Contact Details</h1>
-      </Layout>
-    </div>
+    <Layout>
+      <Head title="Contact Me" />
+      <h1>Contact Details</h1>
+    </Layout>
   );
 };
 
