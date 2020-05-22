@@ -9,6 +9,8 @@ module.exports = {
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-mdx",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -23,6 +25,13 @@ module.exports = {
         name: "pages",
         path: `${__dirname}/content/pages/`,
         ignore: [`**/\.*`],
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/images/`,
       },
     },
   ],
