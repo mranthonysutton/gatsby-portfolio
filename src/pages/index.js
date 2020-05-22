@@ -6,7 +6,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <Head title="Home" />
-      <h1>Display stuff here </h1>
+      <h2>About Me</h2>
+      <p>My name is Anthony Sutton and I am a full-stack web developer.</p>
     </Layout>
   );
 };

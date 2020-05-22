@@ -3,13 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 55vh;
 }
 
 .img {
   border-radius: 50%;
   margin: 0;
-  padding: 0;
+  padding: 0 3rem;
+  max-height: 150px;
+  max-width: 150px;
 }
 
 .heading {
