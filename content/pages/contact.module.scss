@@ -1,0 +1,10 @@
+.container {
+  a {
+    color: #b76d68;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
