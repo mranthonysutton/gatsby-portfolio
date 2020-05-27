@@ -1,6 +1,39 @@
 .footer {
-    margin-top: 3rem;
-    font-size: 0.75rem;
-    text-align: center;
-    padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  font-size: 0.75rem;
+  text-align: center;
+  padding-top: 1rem;
+
+  p {
+    margin: 0;
+  }
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+.iconLink {
+  color: #b76d68;
+
+  &:hover {
+    color: #222831;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .iconContainer {
+    margin-top: 1rem;
+    width: 100%;
+  }
 }

@@ -20,7 +20,7 @@ const DefaultTemplate = ({ data: { mdx: page } }) => {
   return (
     <Layout>
       <Head title={page.frontmatter.title} />
-      <h1>{page.frontmatter.title}</h1>
+      <h2>{page.frontmatter.title}</h2>
       <MDXRenderer>{page.body}</MDXRenderer>
     </Layout>
   );
