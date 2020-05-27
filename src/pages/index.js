@@ -14,7 +14,7 @@ const IndexPage = () => {
         develop applications. Comfortable with Windows, Mac, and various
         Linux-based distros such as Ubuntu, Mint, Debian, Fedora, and Arch. When
         not developing, I enjoy outdoor activities with my wife and two dogs. We
-        like to go hiking, camping, and boating.
+        enjoy going hiking, camping, and boating.
       </p>
 
       <Skills />
