@@ -9,13 +9,12 @@ const IndexPage = () => {
       <Head title="Home" />
       <h2>About Me</h2>
       <p>
-        My name is Anthony Sutton and I am a full-stack web developer.
-        Full-Stack Web Developer that utilizes HTML, CSS, JavaScript, React,
-        NodeJS, Express and Python to develop applications. Comfortable with
-        Windows, Mac, and various Linux-based distros such as Ubuntu, Mint,
-        Debian, Fedora, and Arch. When not developing, I enjoy outdoor
-        activities with my wife and two dogs. We like to go hiking, camping, and
-        boating.
+        My name is Anthony Sutton and I am a full-stack web developer that
+        utilizes HTML, CSS, JavaScript, React, NodeJS, Express and Python to
+        develop applications. Comfortable with Windows, Mac, and various
+        Linux-based distros such as Ubuntu, Mint, Debian, Fedora, and Arch. When
+        not developing, I enjoy outdoor activities with my wife and two dogs. We
+        like to go hiking, camping, and boating.
       </p>
 
       <Skills />
