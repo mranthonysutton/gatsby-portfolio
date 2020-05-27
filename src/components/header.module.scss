@@ -23,12 +23,15 @@
   text-decoration: none;
 
   &:hover {
-    color: #475654;
+    color: #222831;
+    border-bottom: 1px solid #222831;
   }
 }
 
 .activeNavItem {
   color: #222831;
+  //text-decoration: underline;
+  border-bottom: 1px solid #222831;
 }
 
 @media screen and (max-width: 768px) {
