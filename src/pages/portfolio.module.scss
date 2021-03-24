@@ -1,0 +1,32 @@
+.buttonContainer {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-flow: wrap;
+
+  button {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #4f5d75;
+    border: 1px solid #4f5d75;
+    border-radius: 10px;
+    color: snow;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #7384a0;
+      border: 1px solid #7384a0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buttonContainer {
+    flex-direction: column;
+
+    button {
+      width: 100%;
+      margin: 0.7rem 0;
+      font-size: 1.2rem;
+    }
+  }
+}

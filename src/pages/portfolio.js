@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import Layout from "../components/layout";
 import Head from "../components/head";
+import portfolioStyles from "./portfolio.module.scss";
 
 const PortfolioPage = () => {
   const portfolioData = useStaticQuery(graphql`
@@ -34,20 +35,20 @@ const PortfolioPage = () => {
           <h3>{portfolio.node.frontmatter.title}</h3>
           <p>{portfolio.node.frontmatter.description}</p>
           <MDXRenderer>{portfolio.node.body}</MDXRenderer>
-          <div>
+          <div className={portfolioStyles.buttonContainer}>
             <a
               href={portfolio.node.frontmatter.github}
               target="_blank"
               rel="noopener noreferrer"
             >
-              View on GitHub
+              <button>View on GitHub</button>
             </a>
             <a
               href={portfolio.node.frontmatter.url}
               target="_blank"
               rel="noopener noreferrer"
             >
-              View live demo
+              <button>View live demo</button>
             </a>
           </div>
         </div>

@@ -23,3 +23,9 @@
   font-size: 1.2rem;
   color: #475654;
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    text-align: center;
+  }
+}

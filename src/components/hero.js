@@ -6,7 +6,7 @@ import heroStyles from "./hero.module.scss";
 const Hero = () => {
   const { image } = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "AnthonySutton_Hero.jpg" }) {
+      image: file(relativePath: { eq: "AnthonySutton_hero.jpg" }) {
         childImageSharp {
           fixed {
             ...GatsbyImageSharpFixed

@@ -1,0 +1,24 @@
+.imgContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 0.8rem;
+    color: #222831;
+    font-style: italic;
+    margin-top: 0.4rem;
+  }
+}
